@@ -50,6 +50,10 @@ This list focuses on forks that add an app or a meaningful feature (plain/unmodi
 - CiaranOMahoney/intercom
   - Currently close to upstream Intercom (no app-specific README yet).
   - Repo: https://github.com/CiaranOMahoney/intercom
+    
+- GRIMORE8/IntercomSwap
+  - Terminal-first swap assistant with Agent Mode (risk checklist), EVM & Solana swap link generation, and optional real EVM auto-trade via local .env.
+  - Repo: https://github.com/grimore8/intercom-swap-by-grimore8
 
 ## Contributing
 
