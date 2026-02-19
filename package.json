@@ -1,0 +1,28 @@
+{
+  "name": "darknight77",
+  "version": "1.0.0",
+  "description": "Curated list of **active** Intercom and IntercomSwap forks that meet both criteria:\r - fork has updates (not identical to upstream default branch)\r - `README.md` contains a `trac...` wallet address",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanzopratama/darknight77.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hanzopratama/darknight77/issues"
+  },
+  "homepage": "https://github.com/hanzopratama/darknight77#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "axios": "^1.13.5",
+    "dotenv": "^17.3.1",
+    "ethers": "^6.16.0",
+    "tronweb": "^6.2.0"
+  }
+}
