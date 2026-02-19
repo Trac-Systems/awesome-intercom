@@ -1,5 +1,5 @@
-darknughtt Skill Definition
-AxelNode is a Web3 AI signal and education node built on Intercom.
+Darknight77 Skill Definition
+AxelNode is a Web3 AI signal and education node built on Intercom. this scan chain 
 
 Purpose
 Reduce scam exposure and onboarding confusion in Web3.
