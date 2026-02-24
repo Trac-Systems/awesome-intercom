@@ -91,6 +91,7 @@ Included: **168** out of 250+ forks (Intercom: 144, IntercomSwap: 24)
 - [kipasputih58-cpu/PeerPredict](https://github.com/kipasputih58-cpu/PeerPredict) — Decentralized Prediction Market with Trac Wallet Integration
 - [Kizimakai/Real-Time-Alert-System](https://github.com/Kizimakai/Real-Time-Alert-System) — A real-time wallet monitoring and alert bot built on top of the Intercom P2P agent network.
 - [kyablp/intercom-agent](https://github.com/kyablp/intercom-agent) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
+- [Lingz450/receiptsplit](https://github.com/Lingz450/receiptsplit) — ReceiptSplit is a P2P bill-splitting app on Intercom: create bills, add participants and line items, track per-person split and settled status; when everyone is settled the contract logs "Bill fully settled!".
 - [linkinparketh/SkillMatch-P2P](https://github.com/linkinparketh/SkillMatch-P2P) — A decentralized peer-to-peer skill marketplace built on Intercom (TRAC Network)
 - [lintahdaratr/TracTip-App-App-P2P](https://github.com/lintahdaratr/TracTip-App-App-P2P) — A fork of Intercom by Trac Systems
 - [lordnek0/deschel](https://github.com/lordnek0/deschel) — Structured CLI-based Task Grid Simulator
