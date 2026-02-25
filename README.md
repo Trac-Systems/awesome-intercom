@@ -177,6 +177,4 @@ Included: **168** out of 250+ forks (Intercom: 144, IntercomSwap: 24)
 - [SukuyamaBugHunter/hunter-treasury](https://github.com/SukuyamaBugHunter/hunter-treasury) — ⚔ Combat Treasury Simulation Engine
 - [Syawal2/metrics](https://github.com/Syawal2/metrics) — Real-Time CLI Performance Monitor
 - [twityfruity7/Trac-scam-adress-detection](https://github.com/twityfruity7/Trac-scam-adress-detection) — P2P Scam & Risk Detection Agent built on Intercom / Trac Network
-- TaskBoard (P2P micro-gig marketplace)
-  + Post tasks with optional TNK rewards; agents claim, submit work, and get accepted or rejected — full lifecycle tracked on-chain.
-  + Repo: https://github.com/theonlysol/intercom
+- [theonlysol/p2p-micro-gig-marketplace](https://github.com/theonlysol/intercom) — TaskBoard - a P2P micro-gig marketplace, a reference implementation of the Intercom stack on Trac Network.
