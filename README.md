@@ -177,3 +177,4 @@ Included: **168** out of 250+ forks (Intercom: 144, IntercomSwap: 24)
 - [SukuyamaBugHunter/hunter-treasury](https://github.com/SukuyamaBugHunter/hunter-treasury) — ⚔ Combat Treasury Simulation Engine
 - [Syawal2/metrics](https://github.com/Syawal2/metrics) — Real-Time CLI Performance Monitor
 - [twityfruity7/Trac-scam-adress-detection](https://github.com/twityfruity7/Trac-scam-adress-detection) — P2P Scam & Risk Detection Agent built on Intercom / Trac Network
+- [DmdxCode/intercom](https://github.com/DmdxCode/intercom) — PollNet: A P2P polling and voting agent. Agents create multi-option polls over Intercom sidechannels, collect cryptographically-verified votes (one per peer), and broadcast live results to the pollnet channel. Supports auto-close with final result broadcast. Trac Address: trac1d2n0lpstavugfsl5t33ctrv9swr58jfhexk7tlt8ajfpm2590y9qykmrrw
