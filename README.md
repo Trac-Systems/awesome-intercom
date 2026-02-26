@@ -163,6 +163,7 @@ Included: **168** out of 250+ forks (Intercom: 144, IntercomSwap: 24)
 - [dracula20025/intercom-LP-Locker](https://github.com/dracula20025/intercom-LP-Locker) — A P2P liquidity locker agent built on IntercomSwap to prevent rug pulls by time-locking LP tokens via negotiated escrows.
 - [eligable/TRAC-Onboarding-Assistant](https://github.com/eligable/TRAC-Onboarding-Assistant) — An interactive onboarding assistant for new users entering the TRAC ecosystem, built on top of Intercom.
 - [intananjany/TRAC-Quest-Gamification-Bot-Creative-Angle-Konsep](https://github.com/intananjany/TRAC-Quest-Gamification-Bot-Creative-Angle-Konsep) — A fork of Trac-Systems/intercom that adds a daily quest + reward system for TRAC Network users.
+- [janesmith198501/TracSWAP-Strategies](https://github.com/janesmith198501/intercom-swap) – TracSWAP strategy wrapper for IntercomSwap with preconfigured maker/taker RFQ profiles and safe BTC(LN) ↔ USDT(Solana) settlement guardrails.
 - [jakatengker/TRAC-Governance-Voting-](https://github.com/jakatengker/TRAC-Governance-Voting-) — A peer-to-peer governance interface built on Intercom — empowering TNK holders to participate in on-chain governance with ease.
 - [JeremyFocy/intercom-swap-advanced](https://github.com/JeremyFocy/intercom-swap-advanced) — This repository is an advanced fork of IntercomSwap with additional tools, Web UI, and agent-interaction features.
 - [JuraganRapss/rapss-explorer](https://github.com/JuraganRapss/rapss-explorer) — A powerful CLI-based Bitcoin address tracker built for real-time blockchain monitoring.
