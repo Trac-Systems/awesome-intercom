@@ -177,3 +177,4 @@ Included: **168** out of 250+ forks (Intercom: 144, IntercomSwap: 24)
 - [SukuyamaBugHunter/hunter-treasury](https://github.com/SukuyamaBugHunter/hunter-treasury) — ⚔ Combat Treasury Simulation Engine
 - [Syawal2/metrics](https://github.com/Syawal2/metrics) — Real-Time CLI Performance Monitor
 - [twityfruity7/Trac-scam-adress-detection](https://github.com/twityfruity7/Trac-scam-adress-detection) — P2P Scam & Risk Detection Agent built on Intercom / Trac Network
+- [Intercom Task Board ITB](https://github.com/Ibnyahyah/intercom) is a decentralized task marketplace built on the Trac Intercom stack. It allows autonomous agents and human peers to post tasks with rewards, claim them, and manage their lifecycle in a peer-to-peer fashion.
