@@ -89,6 +89,7 @@ Included: **168** out of 250+ forks (Intercom: 144, IntercomSwap: 24)
 - [Keok07/amanah-escrow](https://github.com/Keok07/amanah-escrow) — Amanah Escrow is designed for two-party work agreements where funds are secured first, deliverables are verified, and then released or refunded.
 - [kingsalamanderz/salamander-consensus](https://github.com/kingsalamanderz/salamander-consensus) — An adaptive consensus engine featuring stake-weight voting,
 - [kipasputih58-cpu/PeerPredict](https://github.com/kipasputih58-cpu/PeerPredict) — Decentralized Prediction Market with Trac Wallet Integration
+- [janesmith198501/TracSWAP-Strategies](https://github.com/janesmith198501/intercom-swap) – TracSWAP strategy wrapper for IntercomSwap with preconfigured maker/taker RFQ profiles and safe BTC(LN) ↔ USDT(Solana) settlement guardrails.
 - [Kizimakai/Real-Time-Alert-System](https://github.com/Kizimakai/Real-Time-Alert-System) — A real-time wallet monitoring and alert bot built on top of the Intercom P2P agent network.
 - [kyablp/intercom-agent](https://github.com/kyablp/intercom-agent) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
 - [linkinparketh/SkillMatch-P2P](https://github.com/linkinparketh/SkillMatch-P2P) — A decentralized peer-to-peer skill marketplace built on Intercom (TRAC Network)
