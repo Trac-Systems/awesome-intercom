@@ -177,3 +177,7 @@ Included: **168** out of 250+ forks (Intercom: 144, IntercomSwap: 24)
 - [SukuyamaBugHunter/hunter-treasury](https://github.com/SukuyamaBugHunter/hunter-treasury) — ⚔ Combat Treasury Simulation Engine
 - [Syawal2/metrics](https://github.com/Syawal2/metrics) — Real-Time CLI Performance Monitor
 - [twityfruity7/Trac-scam-adress-detection](https://github.com/twityfruity7/Trac-scam-adress-detection) — P2P Scam & Risk Detection Agent built on Intercom / Trac Network
+TracVote (P2P verifiable polling)
+
+  + Decentralized polling and voting via Intercom sidechannels. 4 poll types (single, multi, approval, ranked/Borda). Tally is deterministic and recomputable by any peer — no trusted tallier required. Agent-ready.
+  + Repo: https://github.com/Harkiem/tracvote
