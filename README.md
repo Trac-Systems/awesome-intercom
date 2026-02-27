@@ -224,3 +224,8 @@ Included: **215** out of 300+ total (Intercom: 188, IntercomSwap: 27)
 - [SukuyamaBugHunter/hunter-treasury](https://github.com/SukuyamaBugHunter/hunter-treasury) — ⚔ Combat Treasury Simulation Engine
 - [Syawal2/metrics](https://github.com/Syawal2/metrics) — Real-Time CLI Performance Monitor
 - [twityfruity7/Trac-scam-adress-detection](https://github.com/twityfruity7/Trac-scam-adress-detection) — P2P Scam & Risk Detection Agent built on Intercom / Trac Network
+- TracMarket (P2P Decentralized Marketplace)
+  + Sellers list items/services on a shared channel, buyers browse and negotiate
+    in private per-listing channels. Deals recorded on Autobase contract state.
+    No middleman, no fees. Agent auto-buy/sell rules included.
+  + Repo: https://github.com/axelstl79/tracmarket
