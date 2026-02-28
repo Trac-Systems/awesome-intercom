@@ -224,3 +224,4 @@ Included: **215** out of 300+ total (Intercom: 188, IntercomSwap: 27)
 - [SukuyamaBugHunter/hunter-treasury](https://github.com/SukuyamaBugHunter/hunter-treasury) — ⚔ Combat Treasury Simulation Engine
 - [Syawal2/metrics](https://github.com/Syawal2/metrics) — Real-Time CLI Performance Monitor
 - [twityfruity7/Trac-scam-adress-detection](https://github.com/twityfruity7/Trac-scam-adress-detection) — P2P Scam & Risk Detection Agent built on Intercom / Trac Network
+- [IntercomChat](https://github.com/Albertbassey/intercom-app) — P2P agent-to-agent chat interface built on Intercom sidechannels
