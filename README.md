@@ -224,3 +224,4 @@ Included: **215** out of 300+ total (Intercom: 188, IntercomSwap: 27)
 - [SukuyamaBugHunter/hunter-treasury](https://github.com/SukuyamaBugHunter/hunter-treasury) — ⚔ Combat Treasury Simulation Engine
 - [Syawal2/metrics](https://github.com/Syawal2/metrics) — Real-Time CLI Performance Monitor
 - [twityfruity7/Trac-scam-adress-detection](https://github.com/twityfruity7/Trac-scam-adress-detection) — P2P Scam & Risk Detection Agent built on Intercom / Trac Network
+(https://github.com/Davexinoh/ghostswap) - Tinder for crypto trades broadcast what you want to swap, auto-match with a counterparty, connect peer to peer.Features: TNK/BTC pairs, intent expiry, partial matching, peer reputation, intent history, colored output.
