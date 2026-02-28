@@ -99,7 +99,10 @@ npm test
 
 ## 📸 Screenshots
 ![App Homepage](screenshots/homepage.png)
-![App Results](screenshots/results.png)
+![App Results](screenshots/results.png)                
+## 📄 License
+MIT — Fork freely, build on top, win together.
+
 
 
 ---
@@ -109,11 +112,9 @@ npm test
 `trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0`
 
 ---
-
-## 🏆 Competition Entry
+---
+ ## 🏆 Competition Entry
 - Fork of: https://github.com/Trac-Systems/intercom-swap
 - Built for: Intercom Vibe Competition
 - Category: IntercomSwap Fork
 
-## 📄 License
-MIT — Fork freely, build on top, win together.
