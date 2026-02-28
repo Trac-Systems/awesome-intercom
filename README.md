@@ -5,6 +5,11 @@ Check your crypto wallet seed phrase security — 100% locally, nothing sent any
 
 ---
 
+<img width="1856" height="837" alt="homepage" src="https://github.com/user-attachments/assets/01fe3351-e0d8-4726-bfdf-43a1caadeeeb" />
+
+---
+
+
 ## 🌐 Live Demo
 👉 https://onihaxy.github.io/seed-phrase-checker-trac
 
