@@ -1,226 +1,145 @@
-# Awesome Intercom
+# SwapDesk — BTC ⚡ USDT Swap Assistant
 
-A curated list of Intercom & IntercomSwap forks that do awesome stuff.
+> A human-friendly conversational UI built on top of [IntercomSwap](https://github.com/TracSystems/intercom-swap) — the peer-to-peer Bitcoin Lightning ↔ USDT Solana swap protocol.
 
-_Generated: 2026-02-27 19:51 UTC_
+---
 
-Included: **215** out of 300+ total (Intercom: 188, IntercomSwap: 27)
+## What is SwapDesk?
 
-## Intercom
-- [0xbeejay20/intercom](https://github.com/0xbeejay20/intercom) — TaskFlow is a decentralized, gas-free task management app built on Trac Network using the Intercom stack and Pear Runtime.
-- [acock207/intercom-vibe-check](https://github.com/acock207/intercom-vibe-check) — This repository is a fork of Intercom, implementing a "Vibe Check" application for the Intercom Vibe Competition.
-- [afshanisvarasafaraz-glitch/intercom](https://github.com/afshanisvarasafaraz-glitch/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [alfathir27/intercom-degen-translator](https://github.com/alfathir27/intercom-degen-translator) — _ "We are all gonna make it. Unless you sell."
-- [aminurmala91-lang/TRac-pool-8pool](https://github.com/aminurmala91-lang/TRac-pool-8pool) — A fully playable 8-ball pool game built as a fork of Trac Intercom, demonstrating real-time peer-to-peer coordination via Intercom sidechannels.
-- [andrew1234-arch/intercom](https://github.com/andrew1234-arch/intercom) — A lightweight, decentralized node monitoring tool built on the Intercom protocol.
-- [anerto/dao-engvot](https://github.com/anerto/dao-engvot) — DAO-ENGVOT is a terminal-based constitutional voting engine designed to simulate structured DAO governance mechanisms.
-- [anjaysia/intercom](https://github.com/anjaysia/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [aprilianirose6/Goal-Tracker-Bot-Gamified-Saving](https://github.com/aprilianirose6/Goal-Tracker-Bot-Gamified-Saving) — A gamified TNK saving tracker built on the TRAC Network / Intercom ecosystem.
-- [Aprxdite/Multi-Agent-Crypto-Alpha-Scanner-Collaboration](https://github.com/Aprxdite/Multi-Agent-Crypto-Alpha-Scanner-Collaboration) — Multi-Agent Collective Intelligence for Crypto Alpha — Built on Intercom (Trac Network)
-- [axellord22/intercom](https://github.com/axellord22/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [Azeezibrahim121/intercom](https://github.com/Azeezibrahim121/intercom) — Built on Trac Network / Intercom · Powered by the Pear Runtime
-- [babatayo-osifeso/Trac](https://github.com/babatayo-osifeso/Trac) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [bakainako/TipJar-P2P-Decentralized-Tip-Support-Board](https://github.com/bakainako/TipJar-P2P-Decentralized-Tip-Support-Board) — A peer-to-peer creator tipping board built on Intercom by Trac Systems.
-- [BbyN008/intercom-jobboard](https://github.com/BbyN008/intercom-jobboard) — A P2P Job Board forked from Trac Intercom.
-- [bearteddysi/mariobrosTRac](https://github.com/bearteddysi/mariobrosTRac) — A retro-style Super Mario-inspired platformer game built on top of Intercom — the P2P agent communication layer by Trac Network.
-- [Beejay020/intercom](https://github.com/Beejay020/intercom) — A fork of Trac-Systems/intercom that adds a decentralized, agent-native bounty board built on Intercom sidechannels.
-- [berkmanbarry70-web/snakeman](https://github.com/berkmanbarry70-web/snakeman) — Neon terminal-based Snake game built with Node.js for CLI environments (Termux compatible).
-- [BikaEvrything/axelbuddy-intercom-ai](https://github.com/BikaEvrything/axelbuddy-intercom-ai) — AxelNode is a custom-built Intercom node focused on Web3 safety and learning.
-- [bikangabah/evolveaitrac](https://github.com/bikangabah/evolveaitrac) — P2P Autonomous Agent Battle Protocol — Built on Intercom
-- [billieg758-arch/intercom](https://github.com/billieg758-arch/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [Bokeunhyun/Minions-Trac](https://github.com/Bokeunhyun/Minions-Trac) — A fun P2P clicker game built on top of Intercom — the Trac Network agent communication stack.
-- [bosokntl/intercom-track](https://github.com/bosokntl/intercom-track) — Fork dari Trac-Systems/intercom dengan tambahan fitur crypto tracker real-time (BTC, ETH, SOL) dari CoinGecko API.
-- [BrightTonyTech/intercom](https://github.com/BrightTonyTech/intercom) — Built on Trac Intercom · Vibe Competition Entry
-- [carlencalinns-wq/pollltrackerTRAC](https://github.com/carlencalinns-wq/pollltrackerTRAC) — A fork of Trac-Systems/intercom that adds a trustless, peer-to-peer polling and voting application.
-- [carlodiganio-sketch/dig-multisig](https://github.com/carlodiganio-sketch/dig-multisig) — A hardened CLI-based multi-signature transaction manager built on Intercom architecture.
-- [Choam07/intercom](https://github.com/Choam07/intercom) — A simple and interactive multi-chain cryptocurrency balance scanner for Ethereum (ETH), BNB Chain (BNB), Base (BASE), Solana (SOL), and TRAC/TNK.
-- [chrisyammsir-source/chrystop-tracker](https://github.com/chrisyammsir-source/chrystop-tracker) — A premium CLI-based crypto market tracker built on top of the Intercom architecture.
-- [codeagen/intercom](https://github.com/codeagen/intercom) — A sleek Pomodoro focus timer built on top of the Intercom stack by Trac Systems.
-- [comand87/intercom-real-price-analyzer](https://github.com/comand87/intercom-real-price-analyzer) — Realtime Web Dashboard + Agent Signal + CA Token Scanner
-- [coucarli6-debug/-Game-Bilia-trac](https://github.com/coucarli6-debug/-Game-Bilia-trac) — A P2P Billiard Game built on Trac Intercom — play pool with moves broadcast over the Intercom peer-to-peer sidechain network.
-- [CryptCypher/intercom-emoji-cypher](https://github.com/CryptCypher/intercom-emoji-cypher) — Degen Codec CLI is a specialized communication tool designed for the decentralized trading ecosystem. It facilitates the secure obfuscation of sensiti
-- [cryptisme/intercom-ask-for-coins](https://github.com/cryptisme/intercom-ask-for-coins) — The Oracle Agent is a decentralized, peer-to-peer application designed to provide instant, accurate cryptocurrency market intelligence. Built on the P
-- [cryptobo1/TracPoll](https://github.com/cryptobo1/TracPoll) — A fork of Trac-Systems/intercom that adds TracPoll: a peer-to-peer polling and voting app where agents create polls, peers vote over Intercom sidechan
-- [CryptoKnight007/intercom](https://github.com/CryptoKnight007/intercom) — InterMatch is a structured, deterministic agent-to-agent discovery and coordination engine built on top of the Intercom stack on Trac Network.
-- [ctcpumps-cyber/intercom](https://github.com/ctcpumps-cyber/intercom) — A production-ready crypto monitoring platform featuring a proprietary Proof-of-Hold™ scoring engine, designed for extensibility, scalability, and Web3
-- [cybertdelion/PollStation---Voting-Poll-P2P-App](https://github.com/cybertdelion/PollStation---Voting-Poll-P2P-App) — A decentralized, peer-to-peer polling and voting app built on top of Intercom — the Trac Network agent stack.
-- [danFabCode/intercom-degen-oracle](https://github.com/danFabCode/intercom-degen-oracle) — DegenOracle is a P2P daily horoscope bot for the Trac Network built on Intercom.
-- [danielmushroom886-ai/room-policy-engine](https://github.com/danielmushroom886-ai/room-policy-engine) — A cyber-style CLI policy validation engine built on Intercom architecture.
-- [Davexinoh/TaskDropper](https://github.com/Davexinoh/TaskDropper) — A minimal peer-to-peer task board built on Intercom — the Trac Network stack for autonomous agents.
-- [deepnsteady/intercom](https://github.com/deepnsteady/intercom) — Built on Intercom (Trac Network)
-- [Demolamalik/intercom](https://github.com/Demolamalik/intercom) — Anonymous P2P real-time polling on Trac Network
-- [DennyArdy/sentinel](https://github.com/DennyArdy/sentinel) — A lightweight real-time CLI event tracker built on Intercom architecture.
-- [deotek4321/intercom](https://github.com/deotek4321/intercom) — TeamPresence is a production-ready app built on the Intercom stack (Trac Network). It turns Intercom into a decentralized presence and availability bo
-- [dexter-maxi/dice-snakes-and-ladders](https://github.com/dexter-maxi/dice-snakes-and-ladders) — A fully playable, browser-based Snake & Ladders game built as a fork of Intercom — demonstrating real-time peer-to-peer gameplay coordination over the
-- [digitalgenesis-bitmap/intercom](https://github.com/digitalgenesis-bitmap/intercom) — Severy Crypto Live Price is a mobile-first cryptocurrency tracking application built with Node.js and Express.
-- [Diksci/intercom](https://github.com/Diksci/intercom) — Intercom Fork + AI Signal Analyzer
-- [dlesleymc/intercom](https://github.com/dlesleymc/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [DmdxCode/intercom](https://github.com/DmdxCode/intercom) — PollNet is a peer-to-peer polling and voting agent built on the Intercom stack (Trac Network).
-- [doygrond/Trac-alert-scan](https://github.com/doygrond/Trac-alert-scan) — A fork of Trac-Systems/intercom that adds a decentralized crypto price alert agent powered by the Intercom P2P sidechain network.
-- [eldawithsoonjump/TRAC-quest](https://github.com/eldawithsoonjump/TRAC-quest) — A peer-to-peer gamified quest board built on top of Intercom — the Trac Network's P2P agent sidechain protocol.
-- [elman71/help-habor](https://github.com/elman71/help-habor) — Help Harbor is a P2P support desk for operator teams: tickets are opened, claimed, updated, then closed or reopened when regressions appear.
-- [elyyrinafriday/TracPoll](https://github.com/elyyrinafriday/TracPoll) — A fork of Intercom that adds a decentralized polling & voting app — agents create polls, cast votes, and broadcast results over Intercom sidechannels 
-- [Emperoar07/intercom](https://github.com/Emperoar07/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [entigadog/intercom_super_app](https://github.com/entigadog/intercom_super_app) — Next-Generation Web3 Crypto Intelligence Dashboard
-- [erapokxyz/intercom-by-me](https://github.com/erapokxyz/intercom-by-me) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [fabermubai/intercom](https://github.com/fabermubai/intercom) — Multi-agent AI alpha scanner built on Intercom (Trac Network)
-- [fahrurxz/intercom](https://github.com/fahrurxz/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [farrelfebrian2023-jpg/intercom](https://github.com/farrelfebrian2023-jpg/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [fasyaaemlia/ping_pong_trac](https://github.com/fasyaaemlia/ping_pong_trac) — Retro Pixel Pong game built on the Trac Network / Intercom protocol
-- [felixmath-coder/intercom](https://github.com/felixmath-coder/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [francinfranky-cpu/-Project-TracQuest-P2P-Treasure-Hunt](https://github.com/francinfranky-cpu/-Project-TracQuest-P2P-Treasure-Hunt) — A browser-based treasure hunt game where players post puzzles ("quests") and race to solve them peer-to-peer via Intercom sidechannels. Winners receiv
-- [Freak-max/intercom](https://github.com/Freak-max/intercom) — A modern, lightweight, and open-source cryptocurrency token watcher built with Node.js and Express.
-- [fredyytonim/Real-alert-TRac](https://github.com/fredyytonim/Real-alert-TRac) — A real-time wallet monitoring and alert app built on the Intercom Network.
-- [gamber7/intercom-CLI-Analyze](https://github.com/gamber7/intercom-CLI-Analyze) — Pro Terminal UI • Realtime Market • CA Scanner • Agent Signal (EMA/RSI)
-- [gamingonspot/-TracTask-](https://github.com/gamingonspot/-TracTask-) — A peer-to-peer task management app built on the Intercom network. Agents broadcast tasks, bid on bounties, and sync state — all over Intercom sidechan
-- [gammavse001/intercom](https://github.com/gammavse001/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [Ghiftt/intercom-ai-orchestrator](https://github.com/Ghiftt/intercom-ai-orchestrator) — This fork adds an AI-powered task orchestrator on top of the Intercom stack
-- [gingerbloodhouse-oss/bloster-arena](https://github.com/gingerbloodhouse-oss/bloster-arena) — A cinematic terminal battle engine built for modern CLI gameplay.
-- [givarizel/snakchain-TRAC](https://github.com/givarizel/snakchain-TRAC) — A fully playable Snake game built as an Intercom fork on the Trac Network.
-- [gregorigor3/ttrac-eco-quest](https://github.com/gregorigor3/ttrac-eco-quest) — A peer-to-peer gamified quest platform built on Intercom — the Trac Network agent sidechain stack.
-- [grimore8/intercom_by_grimore8](https://github.com/grimore8/intercom_by_grimore8) — INTERCOM_BY_GRIMORE8 is a high-performance CLI + Web Dashboard AI Trading Copilot built on an Intercom-style multi-agent architecture.
-- [gugunriskiyansah/P2P-trac-On-Chain-Job-Board-Bounty-Marketplace](https://github.com/gugunriskiyansah/P2P-trac-On-Chain-Job-Board-Bounty-Marketplace) — A fork of Trac-Systems/intercom that adds a non-custodial, agent-powered bounty board and job marketplace over Intercom sidechannels.
-- [hanna-natalya/TRAC-MINER](https://github.com/hanna-natalya/TRAC-MINER) — A paper-trading futures game for TRAC token built on top of Intercom — Trac Network's P2P agent communication layer.
-- [hapidummajid-blip/intercom](https://github.com/hapidummajid-blip/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [Harkiem/tracvote](https://github.com/Harkiem/tracvote) — A decentralized, agent-first voting and polling system built on the Intercom stack (Trac Network).
-- [helloworldzss280-dev/DegenWatch-Pro](https://github.com/helloworldzss280-dev/DegenWatch-Pro) — description: Advanced Web3 Degen Dashboard for token analysis, wallet tracking, and real-time insights. Built with Node.js (Express) and vanilla front
-- [holywingson-alt/Task-Board-P2P-](https://github.com/holywingson-alt/Task-Board-P2P-) — A decentralized, peer-to-peer task board built on top of Intercom by Trac Systems.
-- [hululauk/intercom](https://github.com/hululauk/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [Ibnyahyah/intercom](https://github.com/Ibnyahyah/intercom) — Intercom Task Board (ITB) is a decentralized task marketplace built on the Trac Intercom stack. It allows autonomous agents and human peers to post ta
-- [idimi/intercomifi](https://github.com/idimi/intercomifi) — A P2P WebSocket Bridge for the Trac Network Internet of Agents
-- [imarsela380/XsmartAi](https://github.com/imarsela380/XsmartAi) — Built on Intercom · Trac Network
-- [inautang/TracSwap-Radar](https://github.com/inautang/TracSwap-Radar) — P2P Swap Price Intelligence on the Intercom Agent Mesh
-- [index2310/Price-Tracker-Basic](https://github.com/index2310/Price-Tracker-Basic) — Simple beta app for local running to check current Crypto Prices using ticker and API Provided by CoinGecko
-- [ingerrrubyshoon-sketch/TRAC-vote](https://github.com/ingerrrubyshoon-sketch/TRAC-vote) — A lightweight peer-to-peer voting/polling app built on Intercom (Trac Network).
-- [intancy/cycle-repute](https://github.com/intancy/cycle-repute) — A dynamic reputation management engine featuring time-based decay,
-- [isekaikomaewa/Quest-Trac-tnk](https://github.com/isekaikomaewa/Quest-Trac-tnk) — A fully decentralized quest/bounty board powered by the Intercom P2P sidechannel network. Post tasks, claim bounties, earn XP — no servers, no middlem
-- [itsdecryptor/intercom-nodewatcher-sentinel](https://github.com/itsdecryptor/intercom-nodewatcher-sentinel) — NodeWatcher is a decentralized, peer-to-peer sentinel for blockchain network intelligence. Operating within the Pear Runtime, it provides real-time RP
-- [japanesetokyo8-gif/Trac-duel-game](https://github.com/japanesetokyo8-gif/Trac-duel-game) — A real-time multiplayer word battle game built on the Intercom P2P agent framework by Trac Systems.
-- [jashongeovedi/intercom](https://github.com/jashongeovedi/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [jayzamam/peerdice](https://github.com/jayzamam/peerdice) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [jeniferatalanta-creator/-TRAC-Time-Machine-](https://github.com/jeniferatalanta-creator/-TRAC-Time-Machine-) — "What did my wallet look like 6 months ago?" — Now you can find out.
-- [jeshuotinoshi-arch/trac-ques-earn-TRAC](https://github.com/jeshuotinoshi-arch/trac-ques-earn-TRAC) — A browser-based crypto trivia battle game where agents challenge each other over Intercom P2P sidechannels. Questions are exchanged peer-to-peer, scor
-- [jikagom/Kaffehaus-P2P-Debate-Board-](https://github.com/jikagom/Kaffehaus-P2P-Debate-Board-) — "Where every thesis demands its antithesis."
-- [joeatang/5FAN](https://github.com/joeatang/5FAN) — A multi-brain AI agent built on Trac Network's Intercom.
-- [johnetsiii/TracDice-](https://github.com/johnetsiii/TracDice-) — A non-custodial, peer-to-peer dice gambling app built on Intercom — the Trac Network P2P agent sidechannel stack.
-- [jonsnft/intercom](https://github.com/jonsnft/intercom) — Idea Inbox is a tiny app for collecting and reviewing ideas in a shared space.
-- [josefajosefin7-web/Trac-arena](https://github.com/josefajosefin7-web/Trac-arena) — A live, multiplayer BTC price prediction game powered by Trac Intercom's P2P sidechannels.
-- [juicytomi/JuiciiTrades](https://github.com/juicytomi/JuiciiTrades) — MemoryMatch is a peer-to-peer memory card game built on Intercom / Trac Network.
-- [kangsuengenah-pixel/Trac_aiagent-game-ninjafruit](https://github.com/kangsuengenah-pixel/Trac_aiagent-game-ninjafruit) — A fully interactive browser game built on top of the Intercom / IntercomSwap ecosystem, where players slash TRAC tokens to earn rewards.
-- [karolinswilliam/sonidash_trac](https://github.com/karolinswilliam/sonidash_trac) — A fork of Intercom that turns the Trac Network into a playable endless runner game.
-- [kayleigtrescot/PoolChain](https://github.com/kayleigtrescot/PoolChain) — A decentralized 8-ball billiard game built on Trac Network's Intercom Protocol
-- [kblvck/intercom](https://github.com/kblvck/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [kelleyshintia/tracquest](https://github.com/kelleyshintia/tracquest) — A GameFi-style decentralized quest board powered by Intercom's P2P agent network. Post bounties, claim quests, and settle rewards via Intercom sidecha
-- [Keok07/amanah-escrow](https://github.com/Keok07/amanah-escrow) — Amanah Escrow is designed for two-party work agreements where funds are secured first, deliverables are verified, and then released or refunded.
-- [kingsalamanderz/salamander-consensus](https://github.com/kingsalamanderz/salamander-consensus) — An adaptive consensus engine featuring stake-weight voting,
-- [kipasputih58-cpu/PeerPredict](https://github.com/kipasputih58-cpu/PeerPredict) — Decentralized Prediction Market with Trac Wallet Integration
-- [Kizimakai/Real-Time-Alert-System](https://github.com/Kizimakai/Real-Time-Alert-System) — A real-time wallet monitoring and alert bot built on top of the Intercom P2P agent network.
-- [kromboloni/interclip](https://github.com/kromboloni/interclip) — / | / /____ _____/ ____/ (_) ___
-- [kyablp/intercom-agent](https://github.com/kyablp/intercom-agent) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [lahdlahd/supportintercom](https://github.com/lahdlahd/supportintercom) — Built on Intercom · Trac Network
-- [linkinparketh/SkillMatch-P2P](https://github.com/linkinparketh/SkillMatch-P2P) — A decentralized peer-to-peer skill marketplace built on Intercom (TRAC Network)
-- [linoxbt/TracWhisper](https://github.com/linoxbt/TracWhisper) — P2P end-to-end encrypted private notes on Trac Network — built on Intercom.
-- [lintahdaratr/TracTip-App-App-P2P](https://github.com/lintahdaratr/TracTip-App-App-P2P) — A fork of Intercom by Trac Systems
-- [lordnek0/deschel](https://github.com/lordnek0/deschel) — Structured CLI-based Task Grid Simulator
-- [Mahbubah58/Tracscope](https://github.com/Mahbubah58/Tracscope) — Live swap analytics and portfolio tracking for IntercomSwap — built on the Trac Network P2P stack.
-- [MaivaSoftwares/intercom](https://github.com/MaivaSoftwares/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [makphe/pulse-sentry](https://github.com/makphe/pulse-sentry) — Pulse Sentry is an incident runbook for agent networks: raise alerts quickly, assign ownership, and close with recorded resolution.
-- [malefic881/intercom](https://github.com/malefic881/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [mechanus-ort/intercom](https://github.com/mechanus-ort/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [MrHaans/wallet-visualizer](https://github.com/MrHaans/wallet-visualizer) — A lightweight on-chain transaction visualizer with an integrated AI Agent for wallet behavior analysis.
-- [mrnetwork0001/TracVault](https://github.com/mrnetwork0001/TracVault) — Fork of Trac-Systems/intercom
-- [mugiwarayounkou/TRAC-Reputation-Score-Bot](https://github.com/mugiwarayounkou/TRAC-Reputation-Score-Bot) — On-chain credit intelligence for the TRAC / Bitcoin ecosystem.
-- [mum33n/IntercomTicket](https://github.com/mum33n/IntercomTicket) — Decentralized P2P Event Ticketing built on Intercom / Trac Network.
-- [mylayla17/intercom](https://github.com/mylayla17/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [Nawatstreat/streatid-agentic](https://github.com/Nawatstreat/streatid-agentic) — A modern agent identity & trust engine built on Intercom architecture.
-- [nikolaexander/TRAC-Futures-Trading](https://github.com/nikolaexander/TRAC-Futures-Trading) — A paper-trading futures game for TRAC token built on top of Intercom — Trac Network's P2P agent communication layer.
-- [ninjaley/intercom](https://github.com/ninjaley/intercom) — This is a simple Telegram bot built using the Python programming language and run directly via Termux on Android.
-- [nusaraze/intercom-password-gen](https://github.com/nusaraze/intercom-password-gen) — Passgen is a decentralized, peer-to-peer mnemonic password generator designed for the crypto community. It creates strong, memorable passwords using c
-- [ojgmt/intercom](https://github.com/ojgmt/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [paulamster/intercom](https://github.com/paulamster/intercom) — CLI-based security layer for Intercom.
-- [penggunaco/intercom](https://github.com/penggunaco/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [penpentol/intercom](https://github.com/penpentol/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [Pepencikaladitya/cxylaze-breach](https://github.com/Pepencikaladitya/cxylaze-breach) — Cyberpunk terminal hacking simulation built with Node.js.
-- [pisceans/intercom](https://github.com/pisceans/intercom) — Enterprise-ready lightweight cryptocurrency tracking web application built with pure frontend technologies.
-- [prengki27/intercom](https://github.com/prengki27/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [prismalaster/trac-gallery](https://github.com/prismalaster/trac-gallery) — An agent-first, AI-powered NFT gallery built on the Trac Network Intercom P2P stack. TracGallery discovers Bitcoin Ordinals and Pipe/TAP NFTs, analyze
-- [Profay/Intercom-bounty](https://github.com/Profay/Intercom-bounty) — Decentralized Micro-Task Escrow Platform - Built for the Intercom Vibe Competition
-- [pudidi17/intercom](https://github.com/pudidi17/intercom) — Trac Address (for payouts)
-- [pujogresik/vecto](https://github.com/pujogresik/vecto) — A modular CLI governance engine built on Intercom architecture.
-- [radiagit/intercom](https://github.com/radiagit/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [rexcyon-dev/TracTip--P2P-Tipping-Board](https://github.com/rexcyon-dev/TracTip--P2P-Tipping-Board) — Fork of Trac-Systems/intercom
-- [rianz909/ac-manage](https://github.com/rianz909/ac-manage) — Modern CLI-based Access Control & Role Governance System
-- [rokiru6/bounty-garden](https://github.com/rokiru6/bounty-garden) — Bounty Garden is a result-driven bounty storefront: tasks are posted, hunters claim, submit proof, and issuers approve then settle.
-- [rossalbaizs/TracArena-P2P-](https://github.com/rossalbaizs/TracArena-P2P-) — A peer-to-peer gaming arena built on top of Intercom by Trac Systems.
-- [rozidev/intercom](https://github.com/rozidev/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [salessman8/TRAC-Social-Comparison-Bot-](https://github.com/salessman8/TRAC-Social-Comparison-Bot-) — A TRAC Network Intercom fork — analyze your wallet activity and rank yourself against the global TRAC ecosystem.
-- [Sammy-prog-cloud/intercom](https://github.com/Sammy-prog-cloud/intercom) — A combined token swap DEX + peer-to-peer messaging app built on the Trac Protocol.
-- [severy09/intercom](https://github.com/severy09/intercom) — Severy Crypto Live Price is a mobile-first cryptocurrency tracking application built with Node.js and Express.
-- [Shanks239/intercom](https://github.com/Shanks239/intercom) — Decentralized poll app on Trac Network. Agents create polls, vote, and see live results — no server, fully P2P.
-- [sigmalogistikutama-collab/intercom](https://github.com/sigmalogistikutama-collab/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [sireninsinan/AI-Personal-Finance-Coach](https://github.com/sireninsinan/AI-Personal-Finance-Coach) — An AI-powered personal finance coach for TRAC & crypto holders, built on the Intercom P2P agent network.
-- [siucup640-sketch/sketch-watcher](https://github.com/siucup640-sketch/sketch-watcher) — A minimalist live crypto price watcher built on Intercom architecture.
-- [ste2430973-bit/intercom](https://github.com/ste2430973-bit/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [stephannillon/Trac-Race-Arena-Ai-agent](https://github.com/stephannillon/Trac-Race-Arena-Ai-agent) — AI-Powered P2P Racing Game built on Intercom by Trac Systems
-- [StrongTheDev/flappy-bird-trac](https://github.com/StrongTheDev/flappy-bird-trac) — This folder contains a web-native Flappy Bird remix inspired by the Trac competition plan: a playable canvas experience with coins, TNKc-backed upgrad
-- [stuwertWEB3/Ton_fish_TRAC](https://github.com/stuwertWEB3/Ton_fish_TRAC) — READY GO TO FISHERMAN TON-TRAC-FHISING
-- [SUCCESS6396/intercom](https://github.com/SUCCESS6396/intercom) — A P2P task delegation and confirmation board built on Intercom (Trac Network).
-- [syahidgrager/taskbuddy-relay](https://github.com/syahidgrager/taskbuddy-relay) — TaskBuddy Relay is a lightweight task coordination channel for agents that prioritizes fast handoffs over heavy project management.
-- [syusanbee-lgtm/stickman_Ai_agent_TRAC](https://github.com/syusanbee-lgtm/stickman_Ai_agent_TRAC) — A fork of Intercom | Built on TAP Protocol | Powered by TRAC Ordinals
-- [technologized/TracPoll](https://github.com/technologized/TracPoll) — TracPoll is a peer-to-peer polling and voting application built on the Intercom stack. Peers create polls over Intercom sidechannels, others vote anon
-- [theonlysol/intercom](https://github.com/theonlysol/intercom) — TaskBoard is a decentralized task marketplace built on Intercom / Trac Network.
-- [tomashorni/intercom](https://github.com/tomashorni/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [totoplayerz/TracBoard-Collaborative-P2P-Task-Board](https://github.com/totoplayerz/TracBoard-Collaborative-P2P-Task-Board) — A fork of Intercom that transforms it into a decentralized, peer-to-peer task coordination board for agents and humans.
-- [Uestace223/intercom](https://github.com/Uestace223/intercom) — Intercom fork extended with a Telegram-based real-time crypto tracking agent.
-- [ukmkmhd-tech/intercom](https://github.com/ukmkmhd-tech/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [vairushamdan/TRAC-AI-Wallet-Insight-Assistant](https://github.com/vairushamdan/TRAC-AI-Wallet-Insight-Assistant) — An AI-powered on-chain behavior analysis tool built on Trac Network / Intercom stack.
-- [walterhitler/peerOTP](https://github.com/walterhitler/peerOTP) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [wishmelucks99s/Uniswap-Monitor-](https://github.com/wishmelucks99s/Uniswap-Monitor-) — Real-time ETH swap monitor powered by Uniswap V2 and Alchemy.
-- [wwizardsz/intercom](https://github.com/wwizardsz/intercom) — 🧙‍♂️ WIZARD – Crypto Utility CLI
-- [X-Prism/intercom-trust](https://github.com/X-Prism/intercom-trust) — A P2P reputation system for the Trac Network Intercom ecosystem. Peers rate each other (1-5 stars) after interactions, with ratings stored in the cont
-- [xspace-lab/intercom @ `AI-Collaboratory`](https://github.com/xspace-lab/intercom/tree/AI-Collaboratory) — Watch AI Agents Collaborate on Real Tasks in Real-Time
-- [xspace-lab/intercom @ `AI-TRADING-ARENA`](https://github.com/xspace-lab/intercom/tree/AI-TRADING-ARENA) — Real-time AI trading tournament platform powered by IntercomSwap
-- [xspace-lab/intercom @ `CryptoPortfolio`](https://github.com/xspace-lab/intercom/tree/CryptoPortfolio) — AI-Powered Crypto Trading Assistant built on IntercomSwap
-- [xspace-lab/intercom @ `Game-HubPro`](https://github.com/xspace-lab/intercom/tree/Game-HubPro) — AI-Powered Battle Arena with IntercomSwap Integration
-- [xspace-lab/intercom @ `GameFi-Hub`](https://github.com/xspace-lab/intercom/tree/GameFi-Hub) — A multiplayer blockchain gaming arena where humans and AI agents battle, earn crypto, and trade NFTs in real-time.
-- [xspace-lab/intercom @ `Mood-Tracker`](https://github.com/xspace-lab/intercom/tree/Mood-Tracker) — An AI-powered mental wellness companion built on Intercom
-- [xspace-lab/intercom @ `StudyBuddy`](https://github.com/xspace-lab/intercom/tree/StudyBuddy) — Your AI Tutor & Study Companion built on Intercom + IntercomSwap
-- [xspace-lab/intercom @ `Task-Keeper`](https://github.com/xspace-lab/intercom/tree/Task-Keeper) — An AI-powered personal task and reminder manager built on Intercom
-- [ysaja90/ainz-crypto-tracker](https://github.com/ysaja90/ainz-crypto-tracker) — ⚔ A custom crypto tracking application built on top of the Intercom framework.
-- [Yukianameta/IntercomRoulette-](https://github.com/Yukianameta/IntercomRoulette-) — A decentralized, peer-to-peer roulette game built on top of Intercom — the Trac Network P2P agent stack.
-- [yunamilanita-eng/intercom](https://github.com/yunamilanita-eng/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
-- [Yunshanzxx/tractradingmarketpredict](https://github.com/Yunshanzxx/tractradingmarketpredict) — An all-in-one decentralized trading intelligence platform built on Intercom by Trac Systems.
-- [zafarezar3-sudo/TRAC-Wallet-Intelligence-Bot](https://github.com/zafarezar3-sudo/TRAC-Wallet-Intelligence-Bot) — A P2P AI agent built on Intercom that analyzes TRAC/TAP wallet activity, scores wallet health, and delivers real-time intelligence — all over decentra
-- [zdronze/fireway](https://github.com/zdronze/fireway) — Stylish Multi-Theme Intercom API Control Panel
-- [zitters/agent-market](https://github.com/zitters/agent-market) — A Decentralized AI Agent Service Marketplace Built on Trac Network
-- [zkbintang/star-escrow-finance](https://github.com/zkbintang/star-escrow-finance) — Star Escrow Finance is a CLI-based escrow transaction simulation engine built with lifecycle modeling, fee mechanics, and dispute resolution logic.
-- [zorabaseapp/intercom](https://github.com/zorabaseapp/intercom) — A Modern Web-Based NFT Generator
+**SwapDesk** is a frontend application that makes IntercomSwap accessible to everyone — not just developers.
 
-## IntercomSwap
-- [Ajaxcerl/Intercom-Swap-Nexus](https://github.com/Ajaxcerl/Intercom-Swap-Nexus) — This project is a custom fork of IntercomSwap built for the Intercom Vibe Competition.
-- [albasquarez/Trac_P2P_chat](https://github.com/albasquarez/Trac_P2P_chat) — A fork of Trac-Systems/intercom-swap that adds a real-time AI assistant (Claude) embedded directly into the Intercom sidechannel UI — making P2P commu
-- [Albelelep/tank-wallet](https://github.com/Albelelep/tank-wallet) — TankWallet is a self-custody TNK/TRK wallet designed for practical daily operations on Trac workflows.
-- [Albertbassey/intercom-app](https://github.com/Albertbassey/intercom-app) — A fork of IntercomSwap that adds a real-time agent-to-agent chat interface built on top of the Intercom P2P sidechannel stack.
-- [amri72/rivent](https://github.com/amri72/rivent) — Reactive Intercom Event Engine built on top of the Intercom-Swap stack.
-- [andinilino680/TRAC-Portfolio-Chat-Dashboard](https://github.com/andinilino680/TRAC-Portfolio-Chat-Dashboard) — A conversational AI-powered dashboard for tracking and analyzing multi-wallet TRAC holdings on the Intercom P2P network.
-- [Arza36/ai-dex-swap](https://github.com/Arza36/ai-dex-swap) — This repo is a fork of upstream Intercom (Trac-Systems/intercom): a reference implementation of the Intercom stack on Trac Network for an internet of 
-- [bracklyhermes/intercom-swap](https://github.com/bracklyhermes/intercom-swap) — 🚀 Intercom Swap CLI Simulator
-- [eligable/TRAC-Onboarding-Assistant](https://github.com/eligable/TRAC-Onboarding-Assistant) — An interactive onboarding assistant for new users entering the TRAC ecosystem, built on top of Intercom.
-- [intananjany/TRAC-Quest-Gamification-Bot-Creative-Angle-Konsep](https://github.com/intananjany/TRAC-Quest-Gamification-Bot-Creative-Angle-Konsep) — A fork of Trac-Systems/intercom that adds a daily quest + reward system for TRAC Network users.
-- [intellygentle/intercom-swap](https://github.com/intellygentle/intercom-swap) — Reward Address (TAP Wallet)
-- [jakatengker/TRAC-Governance-Voting-](https://github.com/jakatengker/TRAC-Governance-Voting-) — A peer-to-peer governance interface built on Intercom — empowering TNK holders to participate in on-chain governance with ease.
-- [janesmith198501/intercom-swap](https://github.com/janesmith198501/intercom-swap) — This repo is a fork of upstream Intercom (Trac-Systems/intercom): a reference implementation of the Intercom stack on Trac Network for an internet of 
-- [JeremyFocy/intercom-swap-advanced](https://github.com/JeremyFocy/intercom-swap-advanced) — This repository is an advanced fork of IntercomSwap with additional tools, Web UI, and agent-interaction features.
-- [JuraganRapss/rapss-explorer](https://github.com/JuraganRapss/rapss-explorer) — A powerful CLI-based Bitcoin address tracker built for real-time blockchain monitoring.
-- [kulon666/intercom-swap](https://github.com/kulon666/intercom-swap) — A minimal yet powerful local crypto utility dashboard designed for fast monitoring, safe swap simulation, and lightweight mobile usage.
-- [LordVolmunk/Intercom-Swap-Smart-Router-Mode](https://github.com/LordVolmunk/Intercom-Swap-Smart-Router-Mode) — This fork upgrades IntercomSwap with
-- [nusnuga/SC-BRIDGE-TERMINAL](https://github.com/nusnuga/SC-BRIDGE-TERMINAL) — Pro Web Dashboard • Market Telemetry • Dex Scanner • CoinGecko Chart
-- [pakeko78/intercom-swap-by-pakeko](https://github.com/pakeko78/intercom-swap-by-pakeko) — CLI-based AI Multi-Agent Swap Engine
-- [papdams/rfq-simulation](https://github.com/papdams/rfq-simulation) — A professional Request For Quote (RFQ) simulation platform built with Node.js (Express) and a modern institutional-style UI.
-- [PixieScout/intercom-swap](https://github.com/PixieScout/intercom-swap) — This repository is submitted for the IntercomSwap extension of the Intercom Vibe Competition.
-- [Restianrony34/intercom-swap](https://github.com/Restianrony34/intercom-swap) — A Uniswap-inspired decentralized swap interface built for the TRAC Chain ecosystem.
-- [SamAndreas01/intercomswap-chatbot](https://github.com/SamAndreas01/intercomswap-chatbot) — A Telegram-based token swap bot built from IntercomSwap.
-- [subserina/intercom-swap](https://github.com/subserina/intercom-swap) — Trac Address (for payouts)
-- [SukuyamaBugHunter/hunter-treasury](https://github.com/SukuyamaBugHunter/hunter-treasury) — ⚔ Combat Treasury Simulation Engine
-- [Syawal2/metrics](https://github.com/Syawal2/metrics) — Real-Time CLI Performance Monitor
-- [twityfruity7/Trac-scam-adress-detection](https://github.com/twityfruity7/Trac-scam-adress-detection) — P2P Scam & Risk Detection Agent built on Intercom / Trac Network
+Instead of running terminal commands and reading JSON envelopes, users simply type what they want in plain English:
+
+> *"Swap 0.001 BTC for USDT"*
+> *"What's the current rate?"*
+> *"Show me the fees"*
+
+SwapDesk handles the rest — fetching live market data, displaying real-time quotes with fee breakdowns, showing step-by-step swap progress, and connecting directly to a running IntercomSwap peer via the SC-Bridge WebSocket when available.
+
+---
+
+## Features
+
+- **Conversational swap interface** — natural language input, no terminal required
+- **Live BTC/USDT price** — real-time from CoinGecko API, refreshed every 30 seconds
+- **Live 24H market stats** — volume (BTC + USD) and market cap from CoinGecko, refreshed every 60 seconds
+- **Live trade feed** — real BTCUSDT trades from Binance public API, refreshed every 10 seconds
+- **Real-time swap quotes** — calculated against live price with accurate fee breakdown (0.1% platform + 0.1% trade)
+- **Step tracker** — visual progress through Quote → LN Pay → Escrow → Claim
+- **Quick BTC ↔ USDT calculator** — converts in real-time using live price
+- **Peer detection** — automatically detects a running IntercomSwap peer on `ws://127.0.0.1:49222`, re-checks every 15 seconds
+- **Live mode** — when peer is online, swap button posts a real RFQ to the `0000intercomswapbtcusdt` sidechannel
+- **Demo mode** — when no peer is running, all market data is still real but swap execution is clearly labeled as unavailable
+- **Non-custodial** — built on HTLC settlement, no funds ever touch SwapDesk
+
+---
+
+## Live vs Demo Mode
+
+SwapDesk automatically detects whether a local IntercomSwap peer is running:
+
+| State | What happens |
+|---|---|
+| **Peer online** (port 49222) | Badge shows ✓ PEER ONLINE · Swap button posts a real RFQ to the network |
+| **No peer** | Badge shows DEMO MODE · Market data is still real · Swap execution disabled with clear explanation |
+
+---
+
+## Architecture
+
+```
+User (browser)
+      |
+      | natural language input
+      v
+SwapDesk UI (ui/swapdesk/swapdesk.html)
+      |
+      +-- CoinGecko API ──────── live BTC price, 24H stats
+      |
+      +-- Binance public API ─── live BTCUSDT trade feed
+      |
+      +-- SC-Bridge WebSocket ── ws://127.0.0.1:49222 (if peer running)
+            |
+            v
+      IntercomSwap Peer (this fork)
+            |
+            +── P2P Sidechannels (RFQ negotiation)
+            +── Lightning Network (BTC leg)
+            +── Solana (USDT escrow + HTLC settlement)
+```
+
+---
+
+## Quick Start
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Start your IntercomSwap peer
+
+```bash
+scripts/run-swap-maker.sh swap-maker 49222 0000intercomswapbtcusdt
+```
+
+> Port `49222` is the SC-Bridge port SwapDesk listens for. Keep it consistent.
+
+### 3. Open SwapDesk
+
+```
+ui/swapdesk/swapdesk.html
+```
+
+Open this file in your browser. SwapDesk will detect the running peer within 15 seconds and switch from Demo Mode to Live Mode automatically.
+
+No build step. No server. Just open and use.
+
+---
+
+## Data Sources
+
+| Data | Source | Refresh |
+|---|---|---|
+| BTC/USDT price + 24h change | CoinGecko API | Every 30s |
+| 24H volume + market cap | CoinGecko API | Every 60s |
+| Live trade feed | Binance public API | Every 10s |
+| Swap fees (0.1% + 0.1%) | IntercomSwap protocol | Fixed |
+| Peer connection | SC-Bridge WebSocket | Every 15s |
+
+---
+
+## Repo Structure
+
+```
+/
+├── ui/
+│   └── swapdesk/
+│       └── swapdesk.html     ← SwapDesk frontend (this app)
+├── src/                      ← IntercomSwap core (upstream)
+├── scripts/                  ← IntercomSwap scripts (upstream)
+├── contract/                 ← Solana escrow program (upstream)
+├── SKILL.md                  ← Agent instructions (updated for SwapDesk)
+└── README.md                 ← This file
+```
+
+---
+
+## Built On
+
+This repo is a fork of **[IntercomSwap](https://github.com/TracSystems/intercom-swap)** which is itself a fork of **[Intercom](https://github.com/Trac-Systems/intercom)** by Trac Systems.
+
+SwapDesk adds a human-friendly UI layer on top of the full IntercomSwap stack without modifying any core swap logic.
+
+---
+
+## Trac Address
+
+> **trac1waavv98ys2seavfcv0vnax5z5ke4kvncw8ay8h88x7g5y2a37pesy5dwz8**
+
+---
+
+## License
+
+MIT — same as upstream IntercomSwap.
