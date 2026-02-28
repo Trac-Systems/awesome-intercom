@@ -214,6 +214,7 @@ Included: **215** out of 300+ total (Intercom: 188, IntercomSwap: 27)
 - [JuraganRapss/rapss-explorer](https://github.com/JuraganRapss/rapss-explorer) — A powerful CLI-based Bitcoin address tracker built for real-time blockchain monitoring.
 - [kulon666/intercom-swap](https://github.com/kulon666/intercom-swap) — A minimal yet powerful local crypto utility dashboard designed for fast monitoring, safe swap simulation, and lightweight mobile usage.
 - [LordVolmunk/Intercom-Swap-Smart-Router-Mode](https://github.com/LordVolmunk/Intercom-Swap-Smart-Router-Mode) — This fork upgrades IntercomSwap with
+- [MIKELELE001/intercom-swap](https://github.com/MIKELELE001/intercom-swap) — SwapDesk is a human-friendly conversational UI built on IntercomSwap. Live BTC price from CoinGecko, real trade feed from Binance, automatic peer detection via SC-Bridge WebSocket, and full swap flow — no terminal required.
 - [nusnuga/SC-BRIDGE-TERMINAL](https://github.com/nusnuga/SC-BRIDGE-TERMINAL) — Pro Web Dashboard • Market Telemetry • Dex Scanner • CoinGecko Chart
 - [pakeko78/intercom-swap-by-pakeko](https://github.com/pakeko78/intercom-swap-by-pakeko) — CLI-based AI Multi-Agent Swap Engine
 - [papdams/rfq-simulation](https://github.com/papdams/rfq-simulation) — A professional Request For Quote (RFQ) simulation platform built with Node.js (Express) and a modern institutional-style UI.
