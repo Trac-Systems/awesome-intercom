@@ -8,6 +8,12 @@ Check your crypto wallet seed phrase security — 100% locally, nothing sent any
 
 ---
 
+## 🔗 Trac Address
+```bash
+`trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0`
+
+---
+
 ## 🌐 Live Demo
 👉 https://onihaxy.github.io/seed-phrase-checker-trac
 
@@ -107,12 +113,8 @@ MIT — Fork freely, build on top, win together.
 
 ---
 
-## 🔗 Trac Address
-```bash
-`trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0`
 
----
----
+
  ## 🏆 Competition Entry
 - Fork of: https://github.com/Trac-Systems/intercom-swap
 - Built for: Intercom Vibe Competition
