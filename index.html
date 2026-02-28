@@ -154,6 +154,22 @@
     Seed Phrase Checker · <a href="https://github.com/Trac-Systems/intercom-swap" target="_blank">IntercomSwap</a> · Trac Network
   </div>
 
+  <div style="margin-top:20px; text-align:center;">
+    <p style="font-size:11px; color:#555; letter-spacing:2px; margin-bottom:8px;">TRAC ADDRESS</p>
+    <div style="display:flex; align-items:center; justify-content:center; gap:10px;">
+      <code style="background:#111; border:1px solid #ff6b00; padding:8px 12px; border-radius:8px; font-size:11px; color:#ff6b00;">trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0</code>
+      <button onclick="copyAddress()" style="padding:8px 14px; background:#ff6b00; color:#000; border:none; border-radius:8px; font-family:'Courier New',monospace; font-size:11px; font-weight:bold; cursor:pointer; letter-spacing:1px;" id="copyBtn">COPY</button>
+    </div>
+  </div>
+
+  <script>
+    function copyAddress() {
+      navigator.clipboard.writeText('trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0');
+      document.getElementById('copyBtn').textContent = '✅ COPIED!';
+      setTimeout(() => document.getElementById('copyBtn').textContent = 'COPY', 2000);
+    }
+  </script>
+```
   <script>
     const COMMON_WORDS = ["abandon","ability","able","about","above","absent","absorb","abstract","absurd","abuse","access","accident","account","accuse","achieve","acid","acoustic","acquire","across","act","action","actor","actress","actual","adapt","add","addict","address","adjust","admit","adult","advance","advice","aerobic","afford","afraid","again","age","agent","agree","ahead","aim","air","airport","aisle","alarm","album","alcohol","alert","alien","all","alley","allow","almost","alone","alpha","already","also","alter","always","amateur","amazing","among","amount","amused","analyst","anchor","ancient","anger","angle","angry","animal","ankle","announce","annual","another","answer","antenna","antique","anxiety","any","apart","apology","appear","apple","approve","april","arch","arctic","area","arena","argue","arm","armed","armor","army","around","arrange","arrest","arrive","arrow","art","artefact","artist","artwork","ask","aspect","assault","asset","assist","assume","asthma","athlete","atom","attack","attend","attitude","attract","auction","audit","august","aunt","author","auto","autumn","average","avocado","avoid","awake","aware","away","awesome","awful","awkward","axis"];
 
