@@ -112,14 +112,54 @@
       margin-bottom: 8px;
       font-size: 12px;
       letter-spacing: 1px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
     }
     .checks li.pass { background: #001a00; color: #00ff88; border: 1px solid #00ff8833; }
     .checks li.fail { background: #1a0000; color: #ff3333; border: 1px solid #ff333333; }
     .checks li.warn { background: #1a1000; color: #ffaa00; border: 1px solid #ffaa0033; }
-    .footer { margin-top: 30px; font-size: 10px; color: #333; letter-spacing: 2px; text-align: center; }
+    .trac-section {
+      margin-top: 25px;
+      padding-top: 20px;
+      border-top: 1px solid #222;
+      text-align: center;
+    }
+    .trac-label { font-size: 10px; color: #555; letter-spacing: 3px; margin-bottom: 10px; }
+    .trac-address-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .trac-address {
+      background: #0a0a0a;
+      border: 1px solid #ff6b00;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 10px;
+      color: #ff6b00;
+      word-break: break-all;
+    }
+    .copy-btn {
+      padding: 8px 14px;
+      background: #ff6b00;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+      font-size: 11px;
+      font-weight: bold;
+      cursor: pointer;
+      letter-spacing: 1px;
+      white-space: nowrap;
+    }
+    .copy-btn:hover { background: #ff8c00; }
+    .footer {
+      margin-top: 30px;
+      font-size: 10px;
+      color: #333;
+      letter-spacing: 2px;
+      text-align: center;
+    }
     .footer a { color: #ff6b00; text-decoration: none; }
   </style>
 </head>
@@ -148,34 +188,120 @@
       </div>
       <ul class="checks" id="checkList"></ul>
     </div>
-  </div>
 
-  <div class="footer">
-    Seed Phrase Checker · <a href="https://github.com/Trac-Systems/intercom-swap" target="_blank">IntercomSwap</a> · Trac Network
-  </div>
-
-  <div style="margin-top:20px; text-align:center;">
-    <p style="font-size:11px; color:#555; letter-spacing:2px; margin-bottom:8px;">TRAC ADDRESS</p>
-    <div style="display:flex; align-items:center; justify-content:center; gap:10px;">
-      <code style="background:#111; border:1px solid #ff6b00; padding:8px 12px; border-radius:8px; font-size:11px; color:#ff6b00;">trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0</code>
-      <button onclick="copyAddress()" style="padding:8px 14px; background:#ff6b00; color:#000; border:none; border-radius:8px; font-family:'Courier New',monospace; font-size:11px; font-weight:bold; cursor:pointer; letter-spacing:1px;" id="copyBtn">COPY</button>
+    <div class="trac-section">
+      <div class="trac-label">TRAC ADDRESS</div>
+      <div class="trac-address-box">
+        <div class="trac-address" id="tracAddress">
+          trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0
+        </div>
+        <button class="copy-btn" id="copyBtn" onclick="copyAddress()">COPY</button>
+      </div>
     </div>
   </div>
 
-  <script>
-    function copyAddress() {
-      navigator.clipboard.writeText('trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0');
-      document.getElementById('copyBtn').textContent = '✅ COPIED!';
-      setTimeout(() => document.getElementById('copyBtn').textContent = 'COPY', 2000);
-    }
-  </script>
-```
-  <script>
-    const COMMON_WORDS = ["abandon","ability","able","about","above","absent","absorb","abstract","absurd","abuse","access","accident","account","accuse","achieve","acid","acoustic","acquire","across","act","action","actor","actress","actual","adapt","add","addict","address","adjust","admit","adult","advance","advice","aerobic","afford","afraid","again","age","agent","agree","ahead","aim","air","airport","aisle","alarm","album","alcohol","alert","alien","all","alley","allow","almost","alone","alpha","already","also","alter","always","amateur","amazing","among","amount","amused","analyst","anchor","ancient","anger","angle","angry","animal","ankle","announce","annual","another","answer","antenna","antique","anxiety","any","apart","apology","appear","apple","approve","april","arch","arctic","area","arena","argue","arm","armed","armor","army","around","arrange","arrest","arrive","arrow","art","artefact","artist","artwork","ask","aspect","assault","asset","assist","assume","asthma","athlete","atom","attack","attend","attitude","attract","auction","audit","august","aunt","author","auto","autumn","average","avocado","avoid","awake","aware","away","awesome","awful","awkward","axis"];
+  <div class="footer">
+    Seed Phrase Checker ·
+    <a href="https://github.com/Trac-Systems/intercom-swap" target="_blank">IntercomSwap</a>
+    · Trac Network
+  </div>
 
-    function checkSeedPhrase() {
-      const input = document.getElementById('seedInput').value.trim();
-      const words = input.toLowerCase().split(/\s+/).filter(w => w.length > 0);
+  <script type="module">
+    const OBVIOUS_WORDS = [
+      'password','crypto','bitcoin','wallet','trac','secret',
+      'hello','test','admin','user','login','access','key','pass',
+      'qwerty','letmein','welcome','monkey'
+    ];
+
+    const BIP39_WORDS = [
+      "abandon","ability","able","about","above","absent","absorb",
+      "abstract","absurd","abuse","access","accident","account","accuse",
+      "achieve","acid","acoustic","acquire","across","act","action",
+      "actor","actress","actual","adapt","add","addict","address",
+      "adjust","admit","adult","advance","advice","aerobic","afford",
+      "afraid","again","age","agent","agree","ahead","aim","air",
+      "airport","aisle","alarm","album","alcohol","alert","alien",
+      "all","alley","allow","almost","alone","alpha","already","also",
+      "alter","always","amateur","amazing","among","amount","amused",
+      "analyst","anchor","ancient","anger","angle","angry","animal",
+      "ankle","announce","annual","another","answer","antenna","antique",
+      "anxiety","any","apart","apology","appear","apple","approve",
+      "april","arch","arctic","area","arena","argue","arm","armed",
+      "armor","army","around","arrange","arrest","arrive","arrow",
+      "art","artefact","artist","artwork","ask","aspect","assault",
+      "asset","assist","assume","asthma","athlete","atom","attack",
+      "attend","attitude","attract","auction","audit","august","aunt",
+      "author","auto","autumn","average","avocado","avoid","awake",
+      "aware","away","awesome","awful","awkward","axis"
+    ];
+
+    function analyzePhrase(phrase) {
+      const words = phrase.trim().toLowerCase().split(/\s+/).filter(w => w.length > 0);
+      const checks = [];
+      let score = 0;
+
+      // Word count check
+      if ([12, 18, 24].includes(words.length)) {
+        checks.push({ status: 'pass', text: `✅ Word count is ${words.length} — Valid!` });
+        score += 30;
+      } else if (words.length < 12) {
+        checks.push({ status: 'fail', text: `❌ Only ${words.length} words — Need at least 12!` });
+      } else {
+        checks.push({ status: 'warn', text: `⚠️ ${words.length} words — Use 12, 18, or 24` });
+        score += 10;
+      }
+
+      // Duplicates check
+      const unique = new Set(words);
+      if (unique.size === words.length) {
+        checks.push({ status: 'pass', text: '✅ No duplicate words found — Good!' });
+        score += 25;
+      } else {
+        checks.push({ status: 'fail', text: '❌ Duplicate words detected — Weak phrase!' });
+      }
+
+      // Numbers check
+      if (!words.some(w => /\d/.test(w))) {
+        checks.push({ status: 'pass', text: '✅ No numbers found — Correct format!' });
+        score += 20;
+      } else {
+        checks.push({ status: 'fail', text: '❌ Numbers found — Use words only!' });
+      }
+
+      // Lowercase check
+      if (words.every(w => w === w.toLowerCase())) {
+        checks.push({ status: 'pass', text: '✅ All words are lowercase — Correct!' });
+        score += 10;
+      } else {
+        checks.push({ status: 'warn', text: '⚠️ Some words have capitals — Use lowercase!' });
+      }
+
+      // Obvious words check
+      const found = words.filter(w => OBVIOUS_WORDS.includes(w));
+      if (found.length === 0) {
+        checks.push({ status: 'pass', text: '✅ No obvious weak words detected — Good!' });
+        score += 15;
+      } else {
+        checks.push({ status: 'fail', text: `❌ Weak words found: ${found.join(', ')}` });
+      }
+
+      // BIP39 check
+      const invalid = words.filter(w => !BIP39_WORDS.includes(w));
+      if (invalid.length === 0) {
+        checks.push({ status: 'pass', text: '✅ All words are valid BIP39 words!' });
+        score += 10;
+      } else {
+        checks.push({ status: 'warn', text: `⚠️ Non-BIP39 words: ${invalid.slice(0,3).join(', ')}` });
+      }
+
+      return { words, score, checks };
+    }
+
+    window.checkSeedPhrase = function() {
+      const input = document.getElementById('seedInput').value;
+      if (!input.trim()) { alert('Please enter a seed phrase first!'); return; }
+
+      const { score, checks } = analyzePhrase(input);
       const results = document.getElementById('results');
       const checkList = document.getElementById('checkList');
       const scoreBox = document.getElementById('scoreBox');
@@ -183,74 +309,19 @@
       const scoreNumber = document.getElementById('scoreNumber');
       const scoreText = document.getElementById('scoreText');
 
-      if (words.length === 0) {
-        alert('Please enter a seed phrase first!');
-        return;
-      }
-
       checkList.innerHTML = '';
-      let score = 0;
-      let checks = [];
 
-      // Check 1: Word count
-      if (words.length === 12 || words.length === 18 || words.length === 24) {
-        score += 30;
-        checks.push({ status: 'pass', text: `✅ Word count is ${words.length} — Valid (12, 18, or 24 words)` });
-      } else if (words.length < 12) {
-        checks.push({ status: 'fail', text: `❌ Only ${words.length} words — Too short! Need at least 12` });
-      } else {
-        checks.push({ status: 'warn', text: `⚠️ ${words.length} words — Unusual count. Use 12, 18, or 24` });
-        score += 10;
-      }
-
-      // Check 2: No duplicate words
-      const unique = new Set(words);
-      if (unique.size === words.length) {
-        score += 25;
-        checks.push({ status: 'pass', text: '✅ No duplicate words found — Good!' });
-      } else {
-        checks.push({ status: 'fail', text: `❌ Duplicate words found — Weak phrase!` });
-      }
-
-      // Check 3: No numbers
-      const hasNumbers = words.some(w => /\d/.test(w));
-      if (!hasNumbers) {
-        score += 20;
-        checks.push({ status: 'pass', text: '✅ No numbers in phrase — Correct format!' });
-      } else {
-        checks.push({ status: 'fail', text: '❌ Numbers found — Seed phrases should only have words!' });
-      }
-
-      // Check 4: All lowercase
-      const allLower = words.every(w => w === w.toLowerCase());
-      if (allLower) {
-        score += 10;
-        checks.push({ status: 'pass', text: '✅ All words are lowercase — Correct!' });
-      } else {
-        checks.push({ status: 'warn', text: '⚠️ Some words have capitals — Should be lowercase' });
-      }
-
-      // Check 5: No common simple words
-      const obviousWords = ['password', 'crypto', 'bitcoin', 'wallet', 'trac', 'secret', 'hello', 'test'];
-      const hasObvious = words.some(w => obviousWords.includes(w));
-      if (!hasObvious) {
-        score += 15;
-        checks.push({ status: 'pass', text: '✅ No obvious/common words detected — Good!' });
-      } else {
-        checks.push({ status: 'fail', text: '❌ Obvious words detected — Very weak phrase!' });
-      }
-
-      // Determine strength
-      let strength, cls;
-      if (score >= 80) { strength = 'STRONG 💪'; cls = 'strong'; scoreText.textContent = 'Your seed phrase looks secure!'; }
-      else if (score >= 50) { strength = 'MEDIUM ⚠️'; cls = 'medium'; scoreText.textContent = 'Could be stronger. Review the checks below.'; }
-      else { strength = 'WEAK ❌'; cls = 'weak'; scoreText.textContent = 'This phrase has serious issues. Do not use it!'; }
+      let strength, cls, text;
+      if (score >= 80) { strength = 'STRONG 💪'; cls = 'strong'; text = 'Your seed phrase looks secure!'; }
+      else if (score >= 50) { strength = 'MEDIUM ⚠️'; cls = 'medium'; text = 'Could be stronger. Review checks below.'; }
+      else { strength = 'WEAK ❌'; cls = 'weak'; text = 'Serious issues found. Do not use this phrase!'; }
 
       scoreBox.className = `score-box ${cls}`;
       scoreLabel.className = `score-label ${cls}`;
       scoreNumber.className = `score-number ${cls}`;
       scoreLabel.textContent = strength;
       scoreNumber.textContent = score;
+      scoreText.textContent = text;
 
       checks.forEach(c => {
         const li = document.createElement('li');
@@ -262,9 +333,18 @@
       results.style.display = 'block';
     }
 
-    function clearAll() {
+    window.clearAll = function() {
       document.getElementById('seedInput').value = '';
       document.getElementById('results').style.display = 'none';
+    }
+
+    window.copyAddress = function() {
+      const address = 'trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0';
+      navigator.clipboard.writeText(address).then(() => {
+        const btn = document.getElementById('copyBtn');
+        btn.textContent = '✅ COPIED!';
+        setTimeout(() => btn.textContent = 'COPY', 2000);
+      });
     }
   </script>
 
