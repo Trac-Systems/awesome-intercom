@@ -1,33 +1,31 @@
-# P2P Focus Timer - Trac Network
+# Seed Phrase Checker - Trac Network
 
-A TRAC-themed Pomodoro Focus Timer built on IntercomSwap.
-Stay focused, track your sessions, and earn more TNK.
+A TRAC-themed Seed Phrase Strength Checker built on IntercomSwap.
+Check your crypto wallet seed phrase security — 100% locally, nothing sent anywhere.
 
 ## Features
-- 🔥 25-minute Focus Sessions
-- ☕ Short Break (5 min) & Long Break (15 min)
-- 📊 Session counter
-- 🎨 TRAC-themed dark UI
-- ⚡ Runs in browser, no install needed
+- 🔐 Checks seed phrase strength
+- ✅ Validates word count (12, 18, 24 words)
+- 🔍 Detects duplicate words
+- ⚠️ Detects obvious/weak words
+- 📊 Security score out of 100
+- ⚡ 100% runs in browser — no data sent anywhere
 
 ## Built On
 - IntercomSwap by Trac Systems
 - Node.js + Express
 
 ## How To Run
-```bash
 npm install
 npm start
-```
+
 Then open: http://localhost:3000
 
 ## Screenshots
-![Repo Files](mainrepo.png)
-![Trac Address](tracaddress.png)
-![Timer Code](index.html.png)
+(Add your screenshots here after testing)
 
 ## Trac Address
-0x354E423FB0Cf2C232D39b1e778D9C22af2942789
+trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0
 
 ## Competition Entry
 - Fork of: https://github.com/Trac-Systems/intercom-swap
