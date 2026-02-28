@@ -143,3 +143,8 @@ SwapDesk adds a human-friendly UI layer on top of the full IntercomSwap stack wi
 ## License
 
 MIT — same as upstream IntercomSwap.
+* SwapDesk (BTC Lightning ↔ USDT Solana conversational UI)
+  + Human-friendly chat interface built on IntercomSwap.
+    Live BTC price, real trade feed, automatic peer detection,
+    and full swap flow — no terminal required.
+  + Repo: https://github.com/MIKELELE001/intercom-swap
