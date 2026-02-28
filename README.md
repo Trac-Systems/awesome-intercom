@@ -12,7 +12,7 @@ Check your crypto wallet seed phrase security — 100% locally, nothing sent any
 
 ## 🔗 Trac Address
 ```
-`trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0`
+trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0
 ```
 ---
 
