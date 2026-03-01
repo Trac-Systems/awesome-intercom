@@ -1,3 +1,4 @@
+<!-- updated -->
 MIT License
 
 Copyright (c) 2026 seed-phrase-checker-trac
