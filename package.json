@@ -19,5 +19,7 @@
     "@types/node": "^20.0.0"
   },
   "author": "onihaxy",
-  "license": "MIT"
+  "license": "MIT",
+"keywords": ["trac", "intercom", "seed-phrase", "crypto"]
+```
 }
