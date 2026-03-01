@@ -1,10 +1,9 @@
-<!-- v1.0.0 -->
 # 🔐 Seed Phrase Checker - Trac Network
 
 A TRAC-themed Seed Phrase Strength Checker built on IntercomSwap.
 Check your crypto wallet seed phrase security — 100% locally, nothing sent anywhere.
 
----
+
 <img width="1856" height="837" alt="homepage" src="https://github.com/user-attachments/assets/01fe3351-e0d8-4726-bfdf-43a1caadeeeb" />
 
 <img width="1845" height="822" alt="testing" src="https://github.com/user-attachments/assets/aa07ae9b-6a46-422d-9997-33803d43fe2c" />
