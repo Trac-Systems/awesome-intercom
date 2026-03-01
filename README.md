@@ -81,35 +81,72 @@ seed-phrase-checker-trac/
 
 ---
 
-## 🚀 How To Run
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js v18+
+- npm v9+
+- Rust (optional)
+- Python 3.8+ (optional)
+
+### Installation
 ```bash
+# Clone the repository
+git clone https://github.com/Onihaxy/seed-phrase-checker-trac.git
+
+# Navigate to project
+cd seed-phrase-checker-trac
+
+# Install dependencies
 npm install
+
+# Start the server
 npm start
 ```
-Then open: http://localhost:3000
+
+### Open In Browser
+```
+http://localhost:3000
+```
 
 ---
 
-## 🦀 Run Rust Engine
+## 🦀 Rust Validation Engine
 ```bash
+# Navigate to rust directory
 cd rust
+
+# Build and run
 cargo run
 ```
 
 ---
 
-## 🐍 Run Python Tools
+## 🐍 Python Wordlist Tools
 ```bash
+# Navigate to python directory
 cd python
+
+# Run wordlist checker
 python wordlist.py
+
+# Generate wordlist files
 python generate_wordlist.py
 ```
 
 ---
 
-## 🧪 Run Tests
+## 🧪 Testing
 ```bash
+# Run all tests
 npm test
+
+# Expected output
+# ✅ PASS: 12 words is valid
+# ✅ PASS: No duplicates passes
+# ✅ PASS: Strong phrase detected
 ```
 
 ---
