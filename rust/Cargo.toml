@@ -1,0 +1,15 @@
+# updated
+[package]
+name = "seed-phrase-checker"
+version = "1.0.0"
+edition = "2021"
+description = "Seed Phrase Strength Checker - Built on IntercomSwap Trac Network"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[[bin]]
+name = "seed-checker"
+path = "src/main.rs"

@@ -1,0 +1,25 @@
+{
+  "name": "seed-phrase-checker-trac",
+  "version": "1.0.0",
+  "description": "A TRAC-themed Seed Phrase Strength Checker built on IntercomSwap",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "ts-node server.ts",
+    "test": "ts-node test/test.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.0.0"
+  },
+  "author": "onihaxy",
+  "license": "MIT",
+"keywords": ["trac", "intercom", "seed-phrase", "crypto"]
+```
+}

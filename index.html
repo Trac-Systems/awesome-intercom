@@ -1,0 +1,57 @@
+<!-- updated -->
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seed Phrase Checker - Trac Network</title>
+  <link rel="stylesheet" href="styles/main.css"/>
+</head>
+<body>
+
+  <div class="logo">⬡ TRAC NETWORK</div>
+  <h1>🔐 Seed Phrase Checker</h1>
+  <p class="subtitle">BUILT ON INTERCOMSWAP · CHECK YOUR WALLET SECURITY</p>
+
+  <div class="box">
+    <div class="warning">
+      ⚠️ 100% LOCAL — Your seed phrase is NEVER sent anywhere. All checks run in your browser only.
+    </div>
+
+    <label>ENTER YOUR SEED PHRASE</label>
+    <textarea id="seedInput" placeholder="Enter your 12, 18, or 24 word seed phrase here..."></textarea>
+
+    <button class="btn" onclick="checkSeedPhrase()">CHECK STRENGTH</button>
+    <button class="clear-btn" onclick="clearAll()">CLEAR</button>
+
+    <div class="results" id="results">
+      <div class="score-box" id="scoreBox">
+        <div class="score-label" id="scoreLabel">SCORE</div>
+        <div class="score-number" id="scoreNumber">0</div>
+        <div class="score-text" id="scoreText"></div>
+      </div>
+      <ul class="checks" id="checkList"></ul>
+    </div>
+
+    <div class="trac-section">
+      <div class="trac-label">TRAC ADDRESS</div>
+      <div class="trac-address-box">
+        <div class="trac-address" id="tracAddress">
+          trac1q5r79wn6lc4p3x4desyjw8rna0ml6pakz873vt7r9ary7qlwvgdqwx24d0
+        </div>
+        <button class="copy-btn" id="copyBtn" onclick="copyAddress()">COPY</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Seed Phrase Checker ·
+    <a href="https://github.com/Trac-Systems/intercom-swap" target="_blank">IntercomSwap</a>
+    · Trac Network
+  </div>
+
+  <script src="src/app.js"></script>
+
+</body>
+</html>
