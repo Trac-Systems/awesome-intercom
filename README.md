@@ -224,3 +224,4 @@ Included: **215** out of 300+ total (Intercom: 188, IntercomSwap: 27)
 - [SukuyamaBugHunter/hunter-treasury](https://github.com/SukuyamaBugHunter/hunter-treasury) — ⚔ Combat Treasury Simulation Engine
 - [Syawal2/metrics](https://github.com/Syawal2/metrics) — Real-Time CLI Performance Monitor
 - [twityfruity7/Trac-scam-adress-detection](https://github.com/twityfruity7/Trac-scam-adress-detection) — P2P Scam & Risk Detection Agent built on Intercom / Trac Network
+- [danFabCode/intercom-degen-oracle](https://github.com/danFabCode/intercom-degen-oracle) — 🔮 DegenOracle: daily crypto horoscope bot — deterministic P2P readings from your Trac wallet address, broadcast over Intercom sidechannels.
