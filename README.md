@@ -127,6 +127,8 @@ Included: **215** out of 300+ total (Intercom: 188, IntercomSwap: 27)
 - [makphe/pulse-sentry](https://github.com/makphe/pulse-sentry) — Pulse Sentry is an incident runbook for agent networks: raise alerts quickly, assign ownership, and close with recorded resolution.
 - [malefic881/intercom](https://github.com/malefic881/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
 - [mechanus-ort/intercom](https://github.com/mechanus-ort/intercom) — This repository is a reference implementation of the Intercom stack on Trac Network for an internet of agents.
+- [MIKELELE001/intercom-swap](https://github.com/MIKELELE001/intercom-swap) — SwapDesk is a human-friendly conversational UI built on IntercomSwap. Live BTC price from CoinGecko, real trade feed from Binance, automatic peer detection via SC-Bridge WebSocket, and full swap flow — no terminal required.
+- [MIKELELE001/SWAPFLOOR](https://github.com/MIKELELE001/SWAPFLOOR) — SwapFloor is a live OTC negotiation arena built on IntercomSwap. Post buy/sell orders publicly, match with strangers, negotiate rates via live sliders with a real-time deal zone, and generate ready-to-execute IntercomSwap RFQ commands — featuring reputation system, stealth mode, and market mood visualizer.
 - [MrHaans/wallet-visualizer](https://github.com/MrHaans/wallet-visualizer) — A lightweight on-chain transaction visualizer with an integrated AI Agent for wallet behavior analysis.
 - [mrnetwork0001/TracVault](https://github.com/mrnetwork0001/TracVault) — Fork of Trac-Systems/intercom
 - [mugiwarayounkou/TRAC-Reputation-Score-Bot](https://github.com/mugiwarayounkou/TRAC-Reputation-Score-Bot) — On-chain credit intelligence for the TRAC / Bitcoin ecosystem.
@@ -214,6 +216,8 @@ Included: **215** out of 300+ total (Intercom: 188, IntercomSwap: 27)
 - [JuraganRapss/rapss-explorer](https://github.com/JuraganRapss/rapss-explorer) — A powerful CLI-based Bitcoin address tracker built for real-time blockchain monitoring.
 - [kulon666/intercom-swap](https://github.com/kulon666/intercom-swap) — A minimal yet powerful local crypto utility dashboard designed for fast monitoring, safe swap simulation, and lightweight mobile usage.
 - [LordVolmunk/Intercom-Swap-Smart-Router-Mode](https://github.com/LordVolmunk/Intercom-Swap-Smart-Router-Mode) — This fork upgrades IntercomSwap with
+- [MIKELELE001/intercom-swap](https://github.com/MIKELELE001/intercom-swap) — SwapDesk is a human-friendly conversational UI built on IntercomSwap. Live BTC price from CoinGecko, real trade feed from Binance, automatic peer detection via SC-Bridge WebSocket, and full swap flow — no terminal required.
+- [MIKELELE001/SWAPFLOOR](https://github.com/MIKELELE001/SWAPFLOOR) — SwapFloor is a live OTC negotiation arena built on IntercomSwap. Post buy/sell orders publicly, match with strangers, negotiate rates via live sliders with a real-time deal zone, and generate ready-to-execute IntercomSwap RFQ commands — featuring reputation system, stealth mode, and market mood visualizer.
 - [nusnuga/SC-BRIDGE-TERMINAL](https://github.com/nusnuga/SC-BRIDGE-TERMINAL) — Pro Web Dashboard • Market Telemetry • Dex Scanner • CoinGecko Chart
 - [pakeko78/intercom-swap-by-pakeko](https://github.com/pakeko78/intercom-swap-by-pakeko) — CLI-based AI Multi-Agent Swap Engine
 - [papdams/rfq-simulation](https://github.com/papdams/rfq-simulation) — A professional Request For Quote (RFQ) simulation platform built with Node.js (Express) and a modern institutional-style UI.
