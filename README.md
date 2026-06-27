@@ -1,5 +1,8 @@
 # Awesome Intercom
 
+> ⭐ **Also check out:** [API LLM FREE UNLIMITED](https://github.com/namanains7-ui/awesome-free-llm-gateway-2026) — 42+ Free LLM APIs, Zero Cost, One Line.
+
+
 Curated list of **active** Intercom and IntercomSwap forks that meet both criteria:
 - fork has updates (not identical to upstream default branch)
 - `README.md` contains a `trac...` wallet address
