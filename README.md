@@ -36,6 +36,12 @@ Included forks: **17** (Intercom: 14, IntercomSwap: 3)
 - [cukuptau999/intercom-swap](https://github.com/cukuptau999/intercom-swap) — AI-driven prediction market agent on Trac Network.
 - [subserina/intercom-swap](https://github.com/subserina/intercom-swap) — IntercomSwap harness for Lightning BTC <> Solana USDT RFQ swaps.
 
+
+- [Dansurga/awesome-intercom](https://github.com/Dansurga/awesome-intercom) — Alternative maintained fork with curated descriptions
+
+## Featured Fork
+
+
 ## Notes
 - Forks not listed either had no detected updates vs upstream default branch or had no `trac...` address in README.
 - One line per fork by design for fast scanning as the fork list grows.
